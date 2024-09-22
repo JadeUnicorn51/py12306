@@ -58,5 +58,5 @@ class Web:
         self.session.run(debug=debug, port=Config().WEB_PORT, host='0.0.0.0')
 
 
-if __name__ == '__main__':
+if __name__ != '__main__':
     Web.run()
